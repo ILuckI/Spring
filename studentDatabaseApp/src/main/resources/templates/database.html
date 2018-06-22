@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Database</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+<!-- Nawigacja -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#rozwijam"
+                    aria-expanded="false">
+                <span class="sr-only">Rozwijana nawigacja mobile</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"><i class="fas fa-hand-spock"></i> Spring University</a>
+        </div>
+        <div class="collapse navbar-collapse" id="rozwijam">
+            <ul class="nav navbar-nav">
+                <li><a href="search.html">Search</a></li>
+                <li><a href="news.html">School News</a></li>
+                <li><a href="class.html">My Class</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="me.html"><i class="fas fa-user"></i> UserTest123</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="content">
+                <h1>Hi! UserTest123</h1>
+                <h3>What would you like to do?</h3>
+                <hr>
+                <button class="btn btn-default btn-lg"><i class="fas fa-search"></i><a href="search.html"> Search Users</a></button>
+                <button class="btn btn-default btn-lg"><i class="far fa-newspaper"></i><a href="news.html"> School News</a></button>
+                <button class="btn btn-default btn-lg"><i class="fas fa-user"></i><a href="profile.html"> My Class</a></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="application/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
